@@ -1,0 +1,72 @@
+.user {
+  display: flex;
+  align-items: center;
+  position: relative;
+  border-top: 1px solid #e6e6e6;
+  padding: 0 7px;
+  transition: 0.25s;
+}
+.user:last-child {
+  border-bottom: 1px solid #e6e6e6;
+}
+.user a {
+  text-decoration: none;
+}
+.user .userPhoto {
+  width: 35px;
+  height: 35px;
+  max-width: 35px;
+  max-height: 35px;
+  border-radius: 50%;
+}
+.user .userInfo {
+  padding: 12px 17px;
+}
+.user .userInfo .userName {
+  color: #e44231;
+  transition: 0.25s;
+}
+.user .userInfo .userName:hover {
+  color: #363940;
+}
+.user:hover {
+  background-color: #f5f5f5;
+}
+
+.active {
+  background-color: #f5f5f5;
+  display: flex;
+  align-items: center;
+  position: relative;
+  border-top: 1px solid #e6e6e6;
+  padding: 0 7px;
+  transition: 0.25s;
+}
+.active:last-child {
+  border-bottom: 1px solid #e6e6e6;
+}
+.active a {
+  text-decoration: none;
+}
+.active .userPhoto {
+  width: 35px;
+  height: 35px;
+  max-width: 35px;
+  max-height: 35px;
+  border-radius: 50%;
+}
+.active .userInfo {
+  padding: 12px 17px;
+}
+.active .userInfo .userName {
+  color: #e44231;
+  transition: 0.25s;
+}
+.active .userInfo .userName:hover {
+  color: #363940;
+}
+.active:hover {
+  background-color: #f5f5f5;
+}
+
+/*# sourceMappingURL=Dialog.module.css.map */

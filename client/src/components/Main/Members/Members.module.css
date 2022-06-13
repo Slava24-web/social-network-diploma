@@ -1,0 +1,14 @@
+.members {
+  padding: 20px;
+  background-color: #e8e8e8;
+}
+.members .selected {
+  font-weight: bold;
+}
+.members .membersList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/*# sourceMappingURL=Members.module.css.map */

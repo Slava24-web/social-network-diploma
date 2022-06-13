@@ -1,0 +1,25 @@
+$orange: #e44231
+$text: #363940
+    
+.groupBlock
+    display: flex
+    align-items: center
+    position: relative
+    border-top: 1px solid #e6e6e6
+    &:last-child
+        border-bottom: 1px solid #e6e6e6
+    a
+        text-decoration: none
+    .groupPhoto
+        width: 35px
+        height: 35px
+        min-width: 35px
+        min-height: 35px
+        border-radius: 50%
+    .groupInfo
+        padding: 12px 17px
+        .name
+            color: $orange
+            transition: 0.25s
+            &:hover
+                color: $text

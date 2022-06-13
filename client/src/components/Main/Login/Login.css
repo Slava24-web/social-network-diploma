@@ -1,0 +1,54 @@
+.login {
+  min-height: 70vh;
+}
+
+.wrapper {
+  padding: 40px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.field {
+  width: 400px;
+  box-sizing: border-box;
+  margin: 10px 0;
+  padding: 12px;
+  background-color: #ffffff;
+}
+
+.button-login {
+  display: inline-block;
+  background-color: #e44231;
+  border-radius: 3px;
+  color: #ffffff;
+  transition: 0.25s;
+  font-size: 15px;
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.button-register {
+  display: inline-block;
+  background-color: #787878;
+  border-radius: 3px;
+  color: #ffffff;
+  transition: 0.25s;
+  font-size: 15px;
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+}
+
+.button-login:hover, .button-register:hover {
+  cursor: pointer;
+  background-color: #ea6b5e;
+}
+
+.checkbox {
+  margin-bottom: 12px;
+}
+
+/*# sourceMappingURL=Login.css.map */

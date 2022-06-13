@@ -1,0 +1,28 @@
+.block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-top: 1px solid #e6e6e6;
+  padding: 12px 0;
+}
+
+.block:last-child {
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.block .icon i {
+  padding-right: 15px;
+  color: #e44231;
+}
+
+.block .icon span {
+  color: #8f9194;
+}
+
+.block .number {
+  color: #8f9194;
+}
+/*# sourceMappingURL=Block.module.css.map */

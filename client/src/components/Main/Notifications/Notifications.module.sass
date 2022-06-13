@@ -1,0 +1,48 @@
+$white: #ffffff
+$text: #363940
+$light-text: #8f9194
+
+.notifications
+    .content
+        min-height: 100vh
+        display: flex
+        background-color: #e8e8e8
+        padding: 10px
+        overflow: hidden
+        .contentWrapper
+            box-sizing: border-box
+            width: 68.6%
+            background-color: $white
+            margin: 10px
+            padding: 20px
+            .notificationsContent
+                .activityMenu
+                    padding-top: 20px
+                    padding-bottom: 40px
+                    a
+                        color: $light-text
+                        font-size: 14px
+                        text-transform: capitalize
+                        margin-right: 20px
+                        transition: 0.25s
+                        &:hover, &:active, &:focus
+                            color: $text
+                .noNotif
+                    background-color: rgb(255, 255, 221)
+                    border: 1px solid rgb(204, 187, 34)
+                    border-radius: 3px
+                    padding: 10px
+                    color: $text
+
+@media screen and (max-width: 890px)
+    .notifications
+        .content
+            padding: 5px
+            .contentWrapper
+                width: 100%
+@media screen and (max-width: 380px)
+    .notifications
+        .content
+            padding: 0
+            .contentWrapper
+                margin: 0

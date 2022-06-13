@@ -1,0 +1,136 @@
+img {
+  max-width: 100%;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  text-align: left;
+  padding: 0;
+  margin: 0;
+}
+
+p.info {
+  color: #8f9194;
+  font-size: 14px;
+  margin: 3px 0;
+}
+
+.main {
+  box-sizing: border-box;
+}
+
+.menu {
+  position: fixed;
+  height: calc(100vh - 90px);
+  overflow-y: scroll;
+  overflow-x: hidden;
+  width: 100vw;
+  left: 0;
+  top: 90px;
+  transform: translateX(-100%);
+  z-index: 10;
+}
+.menu .menuWrapper {
+  width: 24%;
+}
+
+.menu.active {
+  transform: translateX(0);
+}
+
+.membersActive {
+  padding: 12px 0;
+}
+.membersActive__link {
+  color: #8f9194;
+  font-size: 14px;
+  text-decoration: none;
+  display: inline-block;
+  margin-right: 15px;
+  transition: 0.25s;
+}
+.membersActive__link:active, .membersActive__link:focus {
+  color: #94b1c7;
+}
+.membersActive__link:hover {
+  color: #FFFFFF;
+}
+.membersActive__link.activeMembersLink {
+  color: #94b1c7;
+}
+
+.membersActive_content {
+  padding: 12px 0;
+}
+.membersActive_content .membersActive__link {
+  color: #ffb2ab;
+  font-size: 14px;
+  text-decoration: none;
+  display: inline-block;
+  margin-right: 15px;
+  transition: 0.25s;
+}
+.membersActive_content .membersActive__link:active, .membersActive_content .membersActive__link:focus {
+  color: #e44231;
+}
+.membersActive_content .membersActive__link:hover {
+  color: #363940;
+}
+
+.sectionTitle {
+  background-color: #f8f8f8;
+  font-size: 28px;
+  margin: 0;
+  padding: 30px 20px;
+  color: #363940;
+}
+
+.sectionBlock__title {
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-size: 19px;
+}
+
+.sectionBlock {
+  background-color: #ffffff;
+  padding: 20px;
+  margin: 10px;
+  width: 100%;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.button-login {
+  display: inline-block;
+  background-color: #e44231;
+  border-radius: 3px;
+  color: white;
+  transition: 0.25s;
+  font-size: 15px;
+  border: none;
+  outline: none;
+  padding: 10px;
+}
+.button-login:hover {
+  cursor: pointer;
+  background-color: #ea6b5e;
+}
+
+@media screen and (max-width: 768px) {
+  .menu .menuWrapper {
+    width: 30%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .menu .menuWrapper {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=App.css.map */

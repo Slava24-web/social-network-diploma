@@ -1,0 +1,120 @@
+$orange: #e44231
+$light-orange: #ec4d3b
+$pink: #ffb2ab
+$text: #363940
+$light-text: #8f9194
+
+// Header
+.header
+    grid-area: header
+    background-color: $light-orange
+    display: flex
+    position: sticky
+    max-width: 100%
+    max-height: 90px
+    top: 0
+    right: 0
+    width: 100%
+    z-index: 2
+    .navbar
+        padding: 0 20px
+        display: flex
+        width: 100%
+        max-width: 100%
+        //justify-content: space-between
+        align-items: center
+        .navigation
+            .navLink
+                padding: 33px 0
+                display: inline-block
+                color: $pink
+                text-decoration: none
+                margin-right: 20px
+                font-size: 18px
+                transition: 0.25s
+                &:hover
+                    color: #ffffff
+                    cursor: pointer
+                .fa
+                    position: relative
+                    top: 2px
+            .activeNavLink
+                color: white
+            .blogLink
+                position: relative
+        .searchBlock
+            display: flex
+            align-items: center
+            margin-left: auto
+            .login
+                color: $pink
+                font-size: 18px
+                margin-left: 20px
+                transition: 0.25s
+                &:hover
+                    color: #ffffff
+                    cursor: pointer
+            a.profileLogo
+                display: inline-block
+                width: 32px
+                height: 32px
+                padding-left: 15px
+                padding-top: 30px
+                padding-bottom: 30px
+                position: relative
+                img
+                    border-radius: 50%
+                    width: 100%
+                    height: 100%
+                    max-width: 32px
+                    max-height: 32px
+                    object-fit: cover
+                    object-position: 0% -20%
+            #searchIcon
+                color: $pink
+                font-size: 20px
+                &:hover
+                    cursor: pointer
+                    color: #ffffff
+        #search
+            display: none
+            position: absolute
+            top: 90px
+            right: 0
+            width: 100%
+            border: none
+            font-size: 18px
+            padding: 15px 10px
+            color: $light-text
+        .profileInfo
+            position: absolute
+            top: 90px
+            right: 0
+            padding: 20px
+            background-color: #FFFFFF
+            display: none
+            a.profileInfo__link
+                display: block
+                font-size: 20px
+                color: $text
+                text-decoration: none
+                transition: 0.25s
+                width: 160px
+                margin-bottom: 5px
+                &:hover
+                    color: $orange
+.menuIcon
+    padding: 33px 0
+    display: inline-block
+    color: $pink
+    text-decoration: none
+    margin-right: 20px
+    font-size: 18px
+    transition: 0.25s
+    cursor: pointer
+
+@media screen and (max-width: 890px)
+    .navigation
+        display: none
+    .searchBlock
+        margin-left: auto

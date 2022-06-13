@@ -1,0 +1,73 @@
+$white: #ffffff
+$text: #363940
+$light-text: #8f9194
+$orange: #e44231
+
+.groups
+    .content
+        display: flex
+        background-color: #e8e8e8
+        padding: 10px
+        overflow: hidden
+        .contentWrapper
+            box-sizing: border-box
+            width: 68.6%
+            background-color: $white
+            margin: 10px
+            padding: 20px
+            .groupsContent
+                .activityMenu
+                    padding-top: 20px
+                    padding-bottom: 40px
+                    a
+                        color: $light-text
+                        font-size: 14px
+                        text-transform: capitalize
+                        margin-right: 20px
+                        transition: 0.25s
+                        &:hover, &:active, &:focus
+                            color: $text
+                .numeration
+                    display: flex
+                    justify-content: space-between
+                    &:first-child
+                        padding-top: 20px
+                    .numberGroups
+                        color: $light-text
+                        font-size: 14px
+                    .numberPages
+                        a
+                            color: $orange
+                            margin: 0 5px
+                            font-size: 15px
+                            &:hover, &:active, &:focus
+                                color: $light-text
+                .groupWrapper
+                    padding-top: 20px
+                    column-count: 2
+                    column-width: 50%
+
+@media screen and (max-width: 890px)
+    .groups
+        .content
+            padding: 5px
+            .contentWrapper
+                width: 100%
+
+@media screen and (max-width: 550px)
+    .groups
+        .content
+            padding: 5px
+            .contentWrapper
+                width: 100%
+                .groupsContent
+                    .groupWrapper
+                        column-count: 1
+                        column-width: 100%
+
+@media screen and (max-width: 380px)
+    .groups
+        .content
+            padding: 0
+            .contentWrapper
+                margin: 0

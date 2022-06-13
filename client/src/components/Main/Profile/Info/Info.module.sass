@@ -1,0 +1,76 @@
+$white: #ffffff
+$text: #363940
+$light-text: #8f9194
+$orange: #e44231
+
+.info
+    .profileInfo
+        border: 1px solid #e6e6e6
+        padding: 0 30px 30px 30px
+        text-align: center
+        margin-bottom: 40px
+
+        .title
+            background-color: $white
+            display: inline
+            padding: 5px 15px
+            position: relative
+            top: -16px
+            font-size: 20px
+            text-transform: capitalize
+
+        .keys
+            text-align: left
+            width: 100%
+
+            .key
+                color: $light-text
+
+                td
+                    padding: 7px 0
+
+                    &:first-child
+                        width: 230px
+
+                    a
+                        color: $orange
+                        transition: 0.25s
+
+                        &:hover
+                            color: $text
+
+.formControl.error
+    span
+        color: red
+
+.formSummaryError
+    border: 1px solid red
+    padding: 5px
+    color: indianred
+    border-radius: 3px
+    margin: 20px 0
+
+input
+    padding: 7px
+    font-size: 14px
+    color: $text
+    border: 1px solid lighten($light-text, 25%)
+    text-transform: none
+    border-radius: 3px
+    margin-right: 10px
+    outline: none
+.save
+    display: inline-block
+    background-color: $orange
+    border-radius: 3px
+    color: $white
+    transition: 0.25s
+    font-size: 13px
+    border: none
+    outline: none
+    height: 34px
+    float: right
+    margin-top: -65px
+    &:hover
+        cursor: pointer
+        background-color: lighten($orange, 10%)

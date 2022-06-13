@@ -1,0 +1,54 @@
+.notifications .content {
+  min-height: 100vh;
+  display: flex;
+  background-color: #e8e8e8;
+  padding: 10px;
+  overflow: hidden;
+}
+.notifications .content .contentWrapper {
+  box-sizing: border-box;
+  width: 68.6%;
+  background-color: #ffffff;
+  margin: 10px;
+  padding: 20px;
+}
+.notifications .content .contentWrapper .notificationsContent .activityMenu {
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+.notifications .content .contentWrapper .notificationsContent .activityMenu a {
+  color: #8f9194;
+  font-size: 14px;
+  text-transform: capitalize;
+  margin-right: 20px;
+  transition: 0.25s;
+}
+.notifications .content .contentWrapper .notificationsContent .activityMenu a:hover, .notifications .content .contentWrapper .notificationsContent .activityMenu a:active, .notifications .content .contentWrapper .notificationsContent .activityMenu a:focus {
+  color: #363940;
+}
+.notifications .content .contentWrapper .notificationsContent .noNotif {
+  background-color: #ffffdd;
+  border: 1px solid #ccbb22;
+  border-radius: 3px;
+  padding: 10px;
+  color: #363940;
+}
+
+@media screen and (max-width: 890px) {
+  .notifications .content {
+    padding: 5px;
+  }
+  .notifications .content .contentWrapper {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 380px) {
+  .notifications .content {
+    padding: 0;
+  }
+  .notifications .content .contentWrapper {
+    margin: 0;
+  }
+}
+
+/*# sourceMappingURL=Notifications.module.css.map */

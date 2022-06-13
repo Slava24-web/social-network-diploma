@@ -1,0 +1,121 @@
+.group {
+  display: inline-block;
+  text-align: center;
+  border: 1px solid #d0d1d2;
+  padding-bottom: 25px;
+  margin-bottom: 20px;
+}
+.group .cover {
+  position: relative;
+  display: block;
+  height: 150px;
+}
+.group .cover img {
+  height: 150px;
+  width: 100%;
+}
+.group .cover .members {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 5px 8px;
+  font-size: 11px;
+  color: #FFFFFF;
+  line-height: 1;
+  border-radius: 3px;
+}
+.group .cover .logo {
+  position: absolute;
+  border: 6px solid #FFFFFF;
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+  background-color: #FFFFFF;
+  top: 60%;
+  left: calc(50% - 46px);
+}
+.group .cover .overlay {
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 92px;
+  height: 92px;
+  border-radius: 50%;
+  position: absolute;
+  top: 60%;
+  left: calc(50% - 46px);
+  opacity: 0;
+  transition: all 0.4s ease-in-out;
+  transform: scale(0);
+  text-align: center;
+  font-size: 24px;
+  color: #FFFFFF;
+}
+.group .cover .overlay span {
+  display: inline-block;
+  padding-top: 28px;
+}
+.group .cover:hover .overlay {
+  opacity: 1;
+  transform: scale(1);
+}
+.group .name {
+  font-size: 18px;
+  color: #363940;
+  padding-top: 45px;
+  margin: 0;
+}
+.group .time {
+  font-size: 13px;
+  color: #8f9194;
+}
+.group .text {
+  color: #363940;
+  font-size: 14px;
+  line-height: 1.7;
+  padding: 0 20px;
+}
+.group .info {
+  padding-top: 10px;
+}
+.group .info span {
+  color: #363940;
+  font-size: 14px;
+  margin-right: 7px;
+}
+.group .info div {
+  display: inline-block;
+}
+.group .info div .leave {
+  border: 1px solid #b6b7b9;
+  border-radius: 3px;
+  padding: 4px 10px;
+  font-size: 14px;
+  color: #8f9194;
+  margin-left: 7px;
+  width: 110px;
+  outline: none;
+  transition: 0.3s ease-in-out;
+}
+.group .info div .leave:hover {
+  cursor: pointer;
+  background-color: #b6b7b9;
+  color: #FFFFFF;
+}
+.group .info div .join {
+  border: 1px solid #ec4d3b;
+  border-radius: 3px;
+  padding: 4px 10px;
+  font-size: 14px;
+  color: #FFFFFF;
+  margin-left: 7px;
+  background-color: #ec4d3b;
+  width: 110px;
+  outline: none;
+  transition: 0.3s ease-in-out;
+}
+.group .info div .join:hover {
+  cursor: pointer;
+  background-color: #e44231;
+}
+
+/*# sourceMappingURL=Group.module.css.map */

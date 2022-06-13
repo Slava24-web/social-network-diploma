@@ -1,0 +1,31 @@
+.groupBlock {
+  display: flex;
+  align-items: center;
+  position: relative;
+  border-top: 1px solid #e6e6e6;
+}
+.groupBlock:last-child {
+  border-bottom: 1px solid #e6e6e6;
+}
+.groupBlock a {
+  text-decoration: none;
+}
+.groupBlock .groupPhoto {
+  width: 35px;
+  height: 35px;
+  min-width: 35px;
+  min-height: 35px;
+  border-radius: 50%;
+}
+.groupBlock .groupInfo {
+  padding: 12px 17px;
+}
+.groupBlock .groupInfo .name {
+  color: #e44231;
+  transition: 0.25s;
+}
+.groupBlock .groupInfo .name:hover {
+  color: #363940;
+}
+
+/*# sourceMappingURL=Group.module.css.map */

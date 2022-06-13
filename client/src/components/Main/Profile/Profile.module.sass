@@ -1,0 +1,58 @@
+$light-text: #8f9194
+$white: #ffffff
+$text: #363940
+$orange: #e44231
+$light-orange: #ec4d3b
+
+.profile
+    .content
+        display: flex
+        background-color: #e8e8e8
+        padding: 10px
+        overflow: hidden
+
+        .contentWrapper
+            box-sizing: border-box
+            width: 68.6%
+            background-color: $white
+            margin: 10px
+            padding: 20px
+
+            .profileContent
+                .profileMenu
+                    padding-top: 20px
+                    padding-bottom: 40px
+
+                    .link
+                        color: $light-text
+                        font-size: 14px
+                        text-transform: capitalize
+                        margin-right: 20px
+                        transition: 0.25s
+                        &:hover, &:active, &:focus
+                            color: $orange
+                            cursor: pointer
+
+.sideBlock
+    width: 28.6%
+input.updateAvatar
+    display: none
+
+.activeLink
+    color: $orange
+
+@media screen and (max-width: 890px)
+    .sideBlock
+        display: none
+    .profile
+        .content
+            padding: 5px
+            .contentWrapper
+                width: 100%
+
+@media screen and (max-width: 380px)
+    .profile
+        .content
+            padding: 0
+            .contentWrapper
+                margin: 0

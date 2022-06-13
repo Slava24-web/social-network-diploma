@@ -1,0 +1,85 @@
+.twitt {
+  background-color: #f3f3f3;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.twitt:last-child {
+  margin-bottom: 0;
+}
+.twitt .head {
+  display: flex;
+}
+.twitt .head img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  margin-right: 20px;
+  object-fit: cover;
+  object-position: 0% -20%;
+}
+.twitt .head .title p {
+  margin: 0;
+}
+.twitt .head .title .orange {
+  color: #e44231;
+}
+.twitt .head .title .hours {
+  color: #8f9194;
+  font-size: 12px;
+  padding-top: 3px;
+}
+.twitt .text {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  color: #363940;
+}
+.twitt .buttons i {
+  color: #8f9194;
+  margin-right: 20px;
+  font-size: 14px;
+}
+.twitt .buttons .delete {
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+.twitt .buttons .delete:hover {
+  color: black;
+}
+.twitt .comments {
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+.twitt .comments .label {
+  padding-bottom: 10px;
+  font-size: 14px;
+}
+.twitt .comments input {
+  height: 28px;
+  box-sizing: border-box;
+  width: calc(100% - 88px);
+}
+.twitt .comments .post {
+  display: inline-block;
+  background-color: #e44231;
+  border-radius: 3px;
+  color: white;
+  transition: 0.25s;
+  font-size: 13px;
+  border: none;
+  outline: none;
+  height: 28px;
+  margin-left: auto;
+}
+.twitt .comments .post:hover {
+  cursor: pointer;
+  background-color: #ea6b5e;
+}
+.twitt .comments .commentsList {
+  padding: 0 10px;
+  margin-top: 10px;
+}
+
+/*# sourceMappingURL=Twit.module.css.map */

@@ -1,0 +1,78 @@
+.info .profileInfo {
+  border: 1px solid #e6e6e6;
+  padding: 0 30px 30px 30px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.info .profileInfo .title {
+  background-color: #ffffff;
+  display: inline;
+  padding: 5px 15px;
+  position: relative;
+  top: -16px;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+.info .profileInfo .keys {
+  text-align: left;
+  width: 100%;
+}
+.info .profileInfo .keys .key {
+  color: #8f9194;
+}
+.info .profileInfo .keys .key td {
+  padding: 7px 0;
+}
+.info .profileInfo .keys .key td:first-child {
+  width: 230px;
+}
+.info .profileInfo .keys .key td a {
+  color: #e44231;
+  transition: 0.25s;
+}
+.info .profileInfo .keys .key td a:hover {
+  color: #363940;
+}
+
+.formControl.error span {
+  color: red;
+}
+
+.formSummaryError {
+  border: 1px solid red;
+  padding: 5px;
+  color: indianred;
+  border-radius: 3px;
+  margin: 20px 0;
+}
+
+input {
+  padding: 7px;
+  font-size: 14px;
+  color: #363940;
+  border: 1px solid #d0d1d2;
+  text-transform: none;
+  border-radius: 3px;
+  margin-right: 10px;
+  outline: none;
+}
+
+.save {
+  display: inline-block;
+  background-color: #e44231;
+  border-radius: 3px;
+  color: #ffffff;
+  transition: 0.25s;
+  font-size: 13px;
+  border: none;
+  outline: none;
+  height: 34px;
+  float: right;
+  margin-top: -65px;
+}
+.save:hover {
+  cursor: pointer;
+  background-color: #ea6b5e;
+}
+
+/*# sourceMappingURL=Info.module.css.map */

@@ -1,0 +1,89 @@
+.userLink_content {
+  display: flex;
+  align-items: center;
+  position: relative;
+  border-top: 1px solid #e6e6e6;
+}
+.userLink_content:last-child {
+  border-bottom: 1px solid #e6e6e6;
+}
+.userLink_content a {
+  text-decoration: none;
+}
+.userLink_content .userLinkPhoto {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+.userLink_content .userLinkInfo {
+  padding: 12px 17px;
+}
+.userLink_content .userLinkInfo .name {
+  color: #e44231;
+  transition: 0.25s;
+}
+.userLink_content .userLinkInfo .name:hover {
+  color: #363940;
+}
+
+.calendar {
+  border: 1px solid #e6e6e6;
+  width: 100%;
+  color: #8f9194;
+  text-align: center;
+  border-collapse: collapse;
+}
+.calendar thead td {
+  padding: 0 10px;
+  border-right: 1px solid #e6e6e6;
+  font-size: 15px;
+}
+.calendar thead td a {
+  color: #e44231;
+  font-size: 20px;
+}
+.calendar thead td:first-child {
+  padding-left: 15px;
+}
+.calendar thead td:last-child {
+  padding-left: 15px;
+}
+
+.home .homeBlock {
+  column-count: 3;
+  column-width: 29%;
+  padding: 10px;
+  padding-right: 30px;
+  background-color: #e8e8e8;
+}
+.home .homeBlock .welcome {
+  background-color: #ffffff;
+  display: inline-block;
+  padding: 20px;
+  width: 100%;
+  margin: 10px;
+  box-sizing: border-box;
+}
+.home .homeBlock .welcome__text {
+  color: #505154;
+  line-height: 1.8;
+}
+
+@media screen and (max-width: 890px) {
+  .home .homeBlock {
+    column-count: 2;
+    column-width: 48%;
+    padding: 5px;
+    padding-right: 25px;
+  }
+}
+@media screen and (max-width: 580px) {
+  .home .homeBlock {
+    column-count: 1;
+    column-width: 100%;
+    padding: 5px;
+    padding-right: 25px;
+  }
+}
+
+/*# sourceMappingURL=Home.module.css.map */

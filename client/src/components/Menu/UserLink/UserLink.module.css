@@ -1,0 +1,36 @@
+.userLink {
+  display: flex;
+  align-items: center;
+  position: relative;
+  border-top: 1px solid #4c4c4c;
+}
+.userLink:last-child {
+  border-bottom: 1px solid #4c4c4c;
+}
+.userLink a {
+  text-decoration: none;
+}
+.userLink .userLinkPhoto {
+  width: 35px;
+  height: 35px;
+  min-height: 35px;
+  min-width: 35px;
+  border-radius: 50%;
+}
+.userLink .userLinkInfo {
+  padding: 12px 17px;
+}
+.userLink .userLinkInfo .name {
+  color: #94b1c7;
+  transition: 0.25s;
+}
+.userLink .userLinkInfo .name:hover {
+  color: #FFFFFF;
+}
+.userLink .userLinkInfo p.info {
+  color: #8f9194;
+  font-size: 14px;
+  margin: 3px 0;
+}
+
+/*# sourceMappingURL=UserLink.module.css.map */

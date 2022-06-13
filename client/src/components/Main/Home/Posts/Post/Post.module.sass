@@ -1,0 +1,28 @@
+$orange: #e44231
+$text: #363940
+    
+// postLink
+.link
+    display: flex
+    padding: 12px 0
+    border-top: 1px solid #e6e6e6
+    &:last-child
+        border-bottom: 1px solid #e6e6e6
+    .linkPhoto
+        width: 75px
+        height: 75px
+        max-width: 75px
+    a.imgPhoto
+        display: inline-block
+        position: relative
+        width: 75px
+        height: 75px
+        img
+            max-width: 100%
+    .linkInfo
+        padding: 0 17px
+        a.name
+            color: $text
+            transition: 0.25s
+            &:hover
+                color: $orange

@@ -1,0 +1,75 @@
+.footer {
+  background-color: #ec4d3b;
+  padding: 30px 20px;
+}
+.footer .wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.footer .wrapper .block {
+  width: 25%;
+}
+.footer .wrapper .block .title {
+  color: #ffffff;
+  font-size: 20px;
+  margin: 0;
+  text-transform: capitalize;
+}
+.footer .wrapper .block .list {
+  margin: 10px 0;
+}
+.footer .wrapper .block .list li a {
+  color: #ffb2ab;
+  line-height: 1.8;
+  transition: 0.25s;
+}
+.footer .wrapper .block .list li a:hover {
+  color: #ffffff;
+}
+.footer .navigation {
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer .navigation .copyright {
+  color: #ffb2ab;
+  font-size: 14px;
+}
+.footer .navigation .copyright a {
+  color: #ffffff;
+  text-decoration: none;
+  transition: 0.25s;
+}
+.footer .navigation .copyright a:hover {
+  color: #ffb2ab;
+}
+.footer .navigation nav a {
+  display: inline-block;
+  color: #ffffff;
+  transition: 0.25s;
+  text-decoration: none;
+  margin-left: 10px;
+  font-size: 14px;
+}
+.footer .navigation nav a:hover {
+  color: #ffb2ab;
+}
+
+@media screen and (max-width: 700px) {
+  .footer .wrapper {
+    justify-content: space-around;
+  }
+  .footer .wrapper .block:first-child {
+    display: none;
+  }
+}
+@media screen and (max-width: 550px) {
+  .footer .wrapper {
+    display: none;
+  }
+  .footer .navigation {
+    padding-top: 0;
+  }
+}
+
+/*# sourceMappingURL=Footer.module.css.map */

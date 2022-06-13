@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAIA,AAAA,KAAK,CAAC;EACF,OAAO,EAAE,MAAM;EACf,UAAU,EAAE,iBAAiB;CAQF;;AAV/B,AAGI,KAHC,AAGA,WAAW,CAAC;EACT,aAAa,EAAE,iBAAiB;CAAG;;AAJ3C,AAKI,KALC,CAKD,CAAC,CAAC;EACE,cAAc,EAAE,UAAU;EAC1B,KAAK,EAXJ,OAAO;EAYR,UAAU,EAAE,KAAK;CAEI;;AAV7B,AASQ,KATH,CAKD,CAAC,AAII,MAAM,CAAC;EACJ,KAAK,EAbV,OAAO;CAaa",
+    "sources": [
+        "Event.module.sass"
+    ],
+    "names": [],
+    "file": "Event.module.css"
+}

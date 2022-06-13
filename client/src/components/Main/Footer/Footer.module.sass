@@ -1,0 +1,64 @@
+$pink: #ffb2ab
+$light-orange: #ec4d3b
+$white: #ffffff
+    
+// Footer
+.footer
+    background-color: $light-orange
+    padding: 30px 20px
+    .wrapper
+        display: flex
+        justify-content: space-between
+        .block
+            width: 25%
+            .title
+                color: $white
+                font-size: 20px
+                margin: 0
+                text-transform: capitalize
+            .list
+                margin: 10px 0
+                li
+                    a
+                        color: $pink
+                        line-height: 1.8
+                        transition: 0.25s
+                        &:hover
+                            color: $white
+    .navigation
+        padding-top: 50px
+        display: flex
+        justify-content: space-between
+        .copyright
+            color: $pink
+            font-size: 14px
+            a
+                color: $white
+                text-decoration: none
+                transition: 0.25s
+                &:hover
+                    color: $pink
+        nav
+            a
+                display: inline-block
+                color: $white
+                transition: 0.25s
+                text-decoration: none
+                margin-left: 10px
+                font-size: 14px
+                &:hover
+                    color: $pink
+
+@media screen and (max-width: 700px)
+    .footer
+        .wrapper
+            justify-content: space-around
+            .block:first-child
+                display: none
+
+@media screen and (max-width: 550px)
+    .footer
+        .wrapper
+            display: none
+        .navigation
+            padding-top: 0
