@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAGA,AAAA,KAAK,CAAC;EACF,OAAO,EAAE,MAAM;EACf,UAAU,EAAE,iBAAiB;CAQF;;AAV/B,AAGI,KAHC,AAGA,WAAW,CAAC;EACT,aAAa,EAAE,iBAAiB;CAAG;;AAJ3C,AAKI,KALC,CAKD,CAAC,CAAC;EACE,cAAc,EAAE,UAAU;EAC1B,KAAK,EAVJ,OAAO;EAWR,UAAU,EAAE,KAAK;CAEI;;AAV7B,AASQ,KATH,CAKD,CAAC,AAII,MAAM,CAAC;EACJ,KAAK,EAZV,OAAO;CAYa",
-    "sources": [
-        "Comments.module.sass"
-    ],
-    "names": [],
-    "file": "Comments.module.css"
-}
